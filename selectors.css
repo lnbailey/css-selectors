@@ -7,8 +7,9 @@ nav ul {
   }  
 
 nav li {
-	float: left;
-    display: inline;
+    display: inline-block;
+}
+nav li a {
     padding: 8px 0 8px 25px;
     text-decoration: none;
 	color: #666;
