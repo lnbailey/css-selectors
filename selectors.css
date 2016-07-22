@@ -15,3 +15,27 @@ nav li a {
 	color: #666;
 	font-size:1.3em;
 }
+.disabled {
+	color: grey;
+}
+.disabled a {
+	color: purple;
+}
+.disabled a:hover {
+	color: blue;
+}
+.active {
+	color: yellow;
+}
+.active a {
+	color: yellow;
+}
+.active a:hover {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.red{
+	color: red;
+}
