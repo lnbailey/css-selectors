@@ -21,21 +21,32 @@ nav li a {
 .disabled a {
 	color: purple;
 }
-.disabled a:hover {
-	color: blue;
-}
 .active {
 	color: yellow;
 }
 .active a {
 	color: yellow;
 }
-.active a:hover {
+.parent div:nth-child(1) {
 	color: red;
 }
-.blue {
+.parent div:nth-child(3) {
 	color: blue;
 }
-.red{
-	color: red;
+.parent h4:nth-child(2) {
+	background-color: red;
+}
+.parent h4:nth-child(4) {
+	background-color: blue;
+}
+.grandparent h4:nth-child(1n){
+	border:1px solid black;
+	border-radius: 15%;
+}
+.promo {
+	color: gold;
+	font-weight: bold;
+}
+footer input[type=text] {
+	height: 25px;
 }
